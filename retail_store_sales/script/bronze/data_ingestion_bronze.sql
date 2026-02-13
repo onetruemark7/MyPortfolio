@@ -13,9 +13,5 @@ this script ingest the raw datasets from the file. It will delete the rows first
 		TABLOCK
 	)
 
-	/*
-	this code counts the rows from the dataset. execute the script above and check if the sql message corresponds the same result.
-	*/
-	SELECT
-	COUNT(*)
-	FROM bronze.csv_retail_store
+	
+
