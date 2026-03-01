@@ -1,0 +1,26 @@
+-- creates and prepares table for finance_ecommerce bronze data ingestion
+CREATE TABLE bronze.finance_ecommerce (
+	TransactionID INTEGER,
+	Date DATE,
+	AccountID VARCHAR(50),
+	AccountName VARCHAR(50),
+	TransactionType VARCHAR(50),
+	Amount DECIMAL(10,2),
+	Currency VARCHAR(50),
+	ExchangeRate DECIMAL(10,2),
+	Balance VARCHAR(50),
+	Merchant VARCHAR(50),
+	MerchantPhone VARCHAR(50),
+	MerchantEmail TEXT,
+	Category VARCHAR(50),
+	Subcategory VARCHAR(50),
+	Country VARCHAR(50),
+	City VARCHAR(50),
+	PostalCode INTEGER,
+	CardNumber TEXT,
+	Email TEXT,
+	Phone VARCHAR(50),
+	IsFraud VARCHAR(50),
+	Notes VARCHAR(50),
+	CustomerSince VARCHAR(50)
+);
