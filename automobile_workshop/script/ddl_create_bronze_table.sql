@@ -1,0 +1,47 @@
+--DROP TABLE IF EXISTS bronze.automobile RESTRICT
+
+\COPY bronze.automobile FROM [your_landing_table] DELIMITER ',' CSV HEADER
+
+CREATE TABLE bronze.automobile (
+	date VARCHAR(10),
+	customer_id VARCHAR(50),
+	customer_name VARCHAR(50),
+	phone VARCHAR(50),
+	vehicle_type VARCHAR(50),
+	plate_number VARCHAR(50),
+	service_type VARCHAR(50),
+	complaint VARCHAR(50),
+	parts_replaced VARCHAR(50),
+	mechanic_name VARCHAR(50),
+	service_cost INT,
+	payment_mode VARCHAR(50),
+	return_visit VARCHAR(50),
+	rating INT,
+	service_time DECIMAL(10,2),
+	remarks VARCHAR(50),
+	status VARCHAR(50),
+	workshop_location VARCHAR(50),
+	referral_source VARCHAR(50),
+	wait_time_mins VARCHAR(50),
+	spare_parts_availability VARCHAR(50),
+	parts_source VARCHAR(50),
+	service_priority VARCHAR(50),
+	customer_type VARCHAR(50),
+	fleet_name VARCHAR(50),
+	mechanic_skill_level VARCHAR(50),
+	part_cost VARCHAR(50),
+	labour_cost VARCHAR(50),
+	fuel_topup VARCHAR(50),
+	discount_given VARCHAR(50),
+	promo_code_used VARCHAR(50),
+	follow_up_date VARCHAR(10),
+	has_insurance_cover VARCHAR(50),
+	mechanic_notes VARCHAR(50),
+	customer_notes VARCHAR(50),
+	request_for_pickup VARCHAR(50),
+	home_service VARCHAR(50),
+	towing_required VARCHAR(50),
+	service_package VARCHAR(50),
+	whatsapp_followup VARCHAR(50)
+	
+);
