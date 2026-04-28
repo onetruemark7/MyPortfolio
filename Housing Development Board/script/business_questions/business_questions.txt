@@ -1,0 +1,19 @@
+Here are **15 intermediate-level data analysis problems** you can perform using the Gold schema views you provided:
+
+1. Find the **distribution of flat types** across different towns.  ✅
+2. Identify the **most common flat model** in each town.  ✅
+3. Compare the **average resale price** of 4-room flats between Bedok and Tampines.  ✅
+4. Determine which **street in Hougang** has the highest number of resale transactions.  ✅
+5. Analyze the **trend of Executive flats** resale prices over the last 10 years.  ✅
+6. Find the **top 5 towns** with the highest proportion of Premium Apartment Loft flats.  ✅
+7. Compare the **average resale price difference** between Model A and Model A-Maisonette flats.  ✅
+8. Identify the **streets in Yishun** where 3-room flats are most frequently sold.  ✅
+9. Calculate the **average resale price per square meter** for each flat type.  ✅
+10. Find the **town with the widest variety of flat models** available.  ✅
+11. Compare the **resale price growth rate** of 5-room flats in Jurong East vs Jurong West.  ✅
+12. Identify the **least common flat type** across all towns.  ✅
+13. Determine the **average resale price difference** between Multi-Generation flats and Executive flats.  ✅
+14. Find the **streets in Ang Mo Kio** with the highest resale activity for 2-room flats.  ✅
+15. Analyze the **resale price distribution** of Maisonette flats across different towns.  ✅
+
+These problems are designed to push you into intermediate-level analysis: combining joins across dimensions, grouping, aggregations, and comparisons over time or geography. Would you like me to **map these into SQL query skeletons** next so you can directly run them in PostgreSQL?
